@@ -1,0 +1,36 @@
+#carousel {
+    padding: 1em;
+}
+
+.container article img {
+    padding: 0.5em;
+    max-width: 100%;
+    width: 100%;
+}
+
+.container article p {
+    padding-bottom: 0;
+}
+
+#cabecalho {
+    background-color: rgba(13, 13, 22, 0.445);
+}
+
+body {
+    background-color: rgba(85, 85, 85, 0.082);
+}
+
+a {
+    margin: 0.5em;
+    
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .conteudo {
+    margin-right:1.8em ;
+    display: grid;
+    grid-template-columns:repeat(2,92.2%);
+    column-gap: 1%;
+    row-gap: 5%;
+}
+}
